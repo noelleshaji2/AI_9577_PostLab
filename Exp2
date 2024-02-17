@@ -1,0 +1,16 @@
+1. What is the relationship between tic-tac-toe and magic square?
+ Tic-tac-toe and magic squares have a connection in their structure and patterns, especially when looking at the classic 3x3 versions of both games. In a 3x3 magic square, each row, column, and diagonal adds up to the same sum, called the magic constant. This structure is reminiscent of tic-tac-toe, where players aim to create a line of their symbols (X or O) horizontally, vertically, or diagonally to win.
+In essence, a 3x3 magic square can be interpreted as a solved game of tic-tac-toe. Each number in the magic square corresponds to a player's move, and achieving the magic constant in every row, column, and diagonal mirrors the objective of winning tic-tac-toe.
+Conversely, the strategies used in tic-tac-toe, like blocking opponents and aiming for specific patterns, can be applied when constructing or solving magic squares, especially in larger grids where the complexity increases.
+So, while they are different games with different goals, tic-tac-toe and magic squares share similarities in terms of pattern recognition, strategic thinking, and arranging elements within a grid.
+
+2. What is a magic square of order n?
+A magic square of order n is a square grid containing n×n cells, where each cell typically contains a distinct integer from 1 to 2 n2, and the sum of the integers in each row, column, and diagonal is the same. This sum is known as the "magic constant."
+The properties of a magic square of order n include:
+1.	The numbers used in the square usually start from 1 and increase sequentially up to n^2.
+2.	The sum of each row, column, and diagonal in the square equals the same magic constant.
+3.	There are 22 main types of magic squares:
+•	"Normal" magic squares: Each cell contains a unique integer from 1 to n^2.
+•	"Panmagic" squares: In addition to the above properties, the broken diagonals (diagonals not containing the center cell) also sum up to the magic constant.
+Magic squares have fascinated mathematicians for centuries due to their intriguing properties and patterns. They have applications in various fields such as recreational mathematics, art, and even cryptography.
+
